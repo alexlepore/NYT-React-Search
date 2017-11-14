@@ -9,4 +9,4 @@
 # This application has the capability of saving and deleting the artciles using the mongo database.
 #![Image of CLI](/images/Capture12.PNG)
 
-#The app has been deployed to Heroku. You will find it [here](https://ancient-atoll-42755.herokuapp.com/).
+# The app has been deployed to Heroku. You will find it [here](https://ancient-atoll-42755.herokuapp.com/).
