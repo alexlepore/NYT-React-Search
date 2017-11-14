@@ -70,7 +70,7 @@ var Main = React.createClass({
       <div className="container" style={ {backgroundColor: "D3D3D3", borderWidth: "1px"} }>
 
         <div className="page-header">
-          <h1 className="text-center"><img style={ {width: "80%"} } src="img/font.jpg" alt="The New York Times"/></h1>
+          <h1 className="text-center"><img style={ {width: "80%"} } src="img/font.svg" alt="The New York Times"/></h1>
           <br><br>
           <h1 className="text-center" style={ {marginTop: "-20px"} }><b><i>React Search</i></b></h1>
           <br>
