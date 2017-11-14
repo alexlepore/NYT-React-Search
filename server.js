@@ -23,7 +23,7 @@ if(process.env.NODE_ENV == 'production'){
   mongoose.connect('mongodb://heroku_6s9v5szt:3vt64iqj81av9kf3d16cp13633@ds155695.mlab.com:55695/heroku_6s9v5szt');
 }
 else{
-  mongoose.connect('mongodb://localhost/nytreact');
+  mongoose.connect('mongodb://localhost/mongoHeadlines');
 }
 var db = mongoose.connection;
 

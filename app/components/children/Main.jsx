@@ -67,14 +67,12 @@ var Main = React.createClass({
   render: function() {
     return (
 
-      <div className="container" style={ {backgroundColor: "D3D3D3", borderWidth: "1px"} }>
+      <div className="container" style={ {backgroundColor: "grey", borderStyle: "solid", borderWidth: "2px"} }>
 
         <div className="page-header">
-          <h1 className="text-center"><img style={ {width: "80%"} } src="img/font.svg" alt="The New York Times"/></h1>
-          <br><br>
-          <h1 className="text-center" style={ {marginTop: "-20px"} }><b><i>React Search</i></b></h1>
-          <br>
-          <h4 className="text-center">A New York Times search application, permitting the saving of articles with an added delete function. </h4>
+          <h1 className="text-center"><img style={ {width: "70%"} } src="img/font.svg" alt="The New York Times"/></h1>
+          <h2 className="text-center" style={ {marginTop: "-2px"} }><b><i>React Search</i></b></h2>
+          <h4 className="text-center">A NYT Times search application, with save and delete functionality.</h4>
         </div>
 
         <Query _setSearchFeilds={this._setSearchFeilds} />
